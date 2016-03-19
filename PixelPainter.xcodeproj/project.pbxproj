@@ -10,7 +10,6 @@
 		AF2A203D1C9CE15F00CA188D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A203C1C9CE15F00CA188D /* main.m */; };
 		AF2A20401C9CE15F00CA188D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A203F1C9CE15F00CA188D /* AppDelegate.m */; };
 		AF2A20431C9CE15F00CA188D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A20421C9CE15F00CA188D /* ViewController.m */; };
-		AF2A20461C9CE15F00CA188D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2A20441C9CE15F00CA188D /* Main.storyboard */; };
 		AF2A20481C9CE15F00CA188D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2A20471C9CE15F00CA188D /* Images.xcassets */; };
 		AF2A204B1C9CE15F00CA188D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A20491C9CE15F00CA188D /* LaunchScreen.xib */; };
 		AF2A20571C9CE15F00CA188D /* PixelPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A20561C9CE15F00CA188D /* PixelPainterTests.m */; };
@@ -34,7 +33,6 @@
 		AF2A203F1C9CE15F00CA188D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF2A20411C9CE15F00CA188D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AF2A20421C9CE15F00CA188D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AF2A20451C9CE15F00CA188D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF2A20471C9CE15F00CA188D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF2A204A1C9CE15F00CA188D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AF2A20501C9CE15F00CA188D /* PixelPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,11 +79,14 @@
 		AF2A20391C9CE15F00CA188D /* PixelPainter */ = {
 			isa = PBXGroup;
 			children = (
+				AF2A20601C9CE25000CA188D /* Application */,
+				AF2A20611C9CE25000CA188D /* Controllers */,
+				AF2A20621C9CE25000CA188D /* Models */,
+				AF2A20631C9CE25000CA188D /* Views */,
 				AF2A203E1C9CE15F00CA188D /* AppDelegate.h */,
 				AF2A203F1C9CE15F00CA188D /* AppDelegate.m */,
 				AF2A20411C9CE15F00CA188D /* ViewController.h */,
 				AF2A20421C9CE15F00CA188D /* ViewController.m */,
-				AF2A20441C9CE15F00CA188D /* Main.storyboard */,
 				AF2A20471C9CE15F00CA188D /* Images.xcassets */,
 				AF2A20491C9CE15F00CA188D /* LaunchScreen.xib */,
 				AF2A203A1C9CE15F00CA188D /* Supporting Files */,
@@ -117,6 +118,34 @@
 				AF2A20551C9CE15F00CA188D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF2A20601C9CE25000CA188D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AF2A20611C9CE25000CA188D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF2A20621C9CE25000CA188D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF2A20631C9CE25000CA188D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2A20461C9CE15F00CA188D /* Main.storyboard in Resources */,
 				AF2A204B1C9CE15F00CA188D /* LaunchScreen.xib in Resources */,
 				AF2A20481C9CE15F00CA188D /* Images.xcassets in Resources */,
 			);
@@ -244,14 +272,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF2A20441C9CE15F00CA188D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF2A20451C9CE15F00CA188D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF2A20491C9CE15F00CA188D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
