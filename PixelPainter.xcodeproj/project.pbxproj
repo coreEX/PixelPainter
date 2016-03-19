@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04EC47191C9CE8A600934688 /* UIView+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC47181C9CE8A600934688 /* UIView+Drawing.m */; };
-		04EC471F1C9CEFED00934688 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EC471E1C9CEFED00934688 /* Test.m */; };
 		AF2A203D1C9CE15F00CA188D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A203C1C9CE15F00CA188D /* main.m */; };
 		AF2A20401C9CE15F00CA188D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A203F1C9CE15F00CA188D /* AppDelegate.m */; };
 		AF2A20431C9CE15F00CA188D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A20421C9CE15F00CA188D /* ViewController.m */; };
@@ -30,8 +29,6 @@
 /* Begin PBXFileReference section */
 		04EC47171C9CE8A600934688 /* UIView+Drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Drawing.h"; sourceTree = "<group>"; };
 		04EC47181C9CE8A600934688 /* UIView+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Drawing.m"; sourceTree = "<group>"; };
-		04EC471D1C9CEFED00934688 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = PixelPainter/Test.h; sourceTree = SOURCE_ROOT; };
-		04EC471E1C9CEFED00934688 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = PixelPainter/Test.m; sourceTree = SOURCE_ROOT; };
 		AF2A20371C9CE15F00CA188D /* PixelPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2A203B1C9CE15F00CA188D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF2A203C1C9CE15F00CA188D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -152,8 +149,6 @@
 		AF2A20631C9CE25000CA188D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04EC471D1C9CEFED00934688 /* Test.h */,
-				04EC471E1C9CEFED00934688 /* Test.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EC471F1C9CEFED00934688 /* Test.m in Sources */,
 				AF2A20431C9CE15F00CA188D /* ViewController.m in Sources */,
 				AF2A20401C9CE15F00CA188D /* AppDelegate.m in Sources */,
 				AF2A203D1C9CE15F00CA188D /* main.m in Sources */,
